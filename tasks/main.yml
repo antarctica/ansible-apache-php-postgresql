@@ -1,0 +1,7 @@
+---
+# Configures Apache to work with PHP Postgres module
+
+- name: restart apache to pickup new module
+  command: "echo 'restarting apache'"
+  notify:
+    - Restart Apache
