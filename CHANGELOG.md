@@ -3,6 +3,7 @@
 ## 0.1.3 - March 2015
 
 * Fixing tasks to prevent unnecessary change reporting
+* Switching to inherited handler for apache
 
 ## 0.1.2 - December 2014
 
