@@ -13,10 +13,10 @@ galaxy_info:
 
 armadillo_info:
   name: Apache PHP PostgreSQL
-  version: 0.1.2
+  version: 0.1.3
   source: git@stash.ceh.ac.uk:7999/barc/apache-php-postgresql.git
   dependencies:
-  - git@stash.ceh.ac.uk:7999/barc/apache-php.git#v0.2.5
+  - git@stash.ceh.ac.uk:7999/barc/apache-php.git#v0.2.7
   - git@stash.ceh.ac.uk:7999/barc/php-postgresql.git#v0.2.2
 
 dependencies:
