@@ -1,7 +1,13 @@
 ---
 # Configures Apache to work with PHP Postgres module
 
-- name: restart apache to pickup new module
+- name: determine which apache modules are loaded
+  command: "apache2ctl -M"
+  register: apache_php_postgresql_fact_apache_modules_loaded
+  changed_when: false
+
+- name: if needed restart apache to pickup new module
   command: "echo 'restarting apache'"
   notify:
     - Restart Apache
+  when: apache_php_postgresql_fact_apache_modules_loaded.stdout.find("php5_module") == -1
