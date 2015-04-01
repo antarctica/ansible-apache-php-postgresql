@@ -1,4 +1,4 @@
-# Apache PHP PostgreSQL (`apache-php-pgsql`)
+# Apache PHP PostgreSQL (`apache-php-postgresql`)
 
 **Part of the BAS Ansible Role Collection (BARC)**
 

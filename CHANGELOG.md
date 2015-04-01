@@ -1,9 +1,9 @@
-# Apache PHP PostgreSQL (`apache-php-pgsql`) - Changelog
+# Apache PHP PostgreSQL (`apache-php-postgresql`) - Changelog
 
 ## 0.1.3 - March 2015
 
 * Fixing tasks to prevent unnecessary change reporting
-* Switching to inherited handler for apache
+* Switching to inherited handler for Apache
 
 ## 0.1.2 - December 2014
 
